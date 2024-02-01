@@ -1,0 +1,28 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+
+/* VARIABLE */
+:root {
+  /* Layout */
+  --desktop-width: 1440px;
+  --mobile-width: 375px;
+
+  /* Colors */
+  --nutmeg: #854632;
+  --dark-raspberry: #7b284f;
+  --white: #fff;
+  --rose-white: #fff5fa;
+  --eggshell: #f3e6d8;
+  --light-grey: #e4ded8;
+  --wenge-brown: #5f574e;
+  --dark-charcoal: #302d2c;
+
+  /* Typo */
+  --body-font-size: 16px;
+
+  /* Font */
+  --font-outfit-sans-serif: 'Outfit', sans-serif;
+  --font-young-serif: 'Young Serif', serif;
+}

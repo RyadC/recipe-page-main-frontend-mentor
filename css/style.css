@@ -1,0 +1,17 @@
+
+/* GENERAL */
+body {
+  background-color: var(--eggshell);
+  padding: 150px 0;
+}
+
+.container {
+  background-color: var(--white);
+  width: var(--desktop-width);
+  margin: 0 auto;
+  padding: 45px;
+  border-radius: 30px;
+}
+
+
+/*  */
