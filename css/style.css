@@ -51,6 +51,10 @@ body {
   margin-left: 10px;
 }
 .section-preparation-time__item-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-size: var(--body-font-size);
   margin-bottom: var(--margin-bottom-li);
 }
@@ -69,6 +73,10 @@ body {
   color: var(--nutmeg);
 }
 .section-ingredients__item-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-bottom: var(--margin-bottom-li);
 }
 

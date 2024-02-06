@@ -1,0 +1,38 @@
+
+/********     MOBILE RESPONSIVE      ********/
+@media screen and (max-width: 645px) {
+  body {
+    padding: 0;
+  }
+  .figure {
+    margin-left: -40px;
+    margin-top: -40px;
+    margin-right: -40px;
+  }
+  .figure__img {
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .main-title {
+    font-size: 2.7rem;
+  }
+  .section-preparation-time__item-list::before, .section-ingredients__item-list::before, .section-instructions__item-list::before {
+    margin-right: 23px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .main-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .title-h2 {
+   font-size: 1.9rem;
+    margin-bottom: 15px;
+  }
+  .title-h2--info {
+    font-size: 1.2rem;
+  }
+}

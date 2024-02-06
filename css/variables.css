@@ -4,6 +4,7 @@
   --desktop-width: 1440px;
   --mobile-width: 375px;
   --margin-bottom-li: 10px;
+  --margin-bottom-li--res: 5px;
 
   /* Colors */
   --nutmeg: #854632;
@@ -23,3 +24,5 @@
   --font-outfit-sans-serif: 'Outfit', sans-serif;
   --font-young-serif: 'Young Serif', serif;
 }
+
+
