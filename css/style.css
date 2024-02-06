@@ -1,17 +1,115 @@
-
 /* GENERAL */
 body {
   background-color: var(--eggshell);
-  padding: 150px 0;
+  padding: 30px 0;
 }
 
 .container {
   background-color: var(--white);
-  width: var(--desktop-width);
+  max-width: var(--desktop-width);
   margin: 0 auto;
-  padding: 45px;
+  padding:  40px;
   border-radius: 30px;
 }
 
 
-/*  */
+/* FIGURE */
+.figure {
+  margin-bottom: 40px;
+}
+.figure__img {
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* MAIN TITLE*/
+.main-title {
+  font-size: 3.5rem;
+  font-family: 'Young Serif', sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: var(--dark-charcoal);
+}
+
+/* RECIPE DESCRIPTION*/
+.recipe-description {
+  font-size: var(--body-font-size);
+  font-weight: 600;
+  line-height: var(--line-height);
+  margin-bottom: 35px;
+}
+
+/* SECTION PREPARATION*/
+.section-preparation-time {
+  background-color: var(--rose-white);
+  padding: 28px 35px;
+  border-radius: 15px;
+  margin-bottom: 32px;
+}
+.section-preparation-time__list {
+  margin-left: 10px;
+}
+.section-preparation-time__item-list {
+  font-size: var(--body-font-size);
+  margin-bottom: var(--margin-bottom-li);
+}
+.section-preparation-time__item-list::before {
+  color: var(--dark-raspberry);
+}
+
+/* SECTION INGREDIENTS*/
+.section-ingredients {
+  position: relative;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.section-ingredients__item-list::before {
+  color: var(--nutmeg);
+}
+.section-ingredients__item-list {
+  margin-bottom: var(--margin-bottom-li);
+}
+
+/* SECTION INSTRUCTIONS*/
+.section-instructions {
+  position: relative;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+.section-instructions__item-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: var(--margin-bottom-li);
+  counter-increment: li;
+  font-size: var(--body-font-size);
+  line-height: var(--line-height);
+}
+.section-instructions__item-list::before {
+  content: counter(li);
+  color: var(--nutmeg);
+  display: block;
+}
+
+/* SECTION NUTRITION */
+.section-nutrition {
+
+}
+.section-nutrition__paragraph {
+  margin-bottom: 30px;
+}
+.section-nutrition__table {
+  width: 100%;
+}
+.table__th {
+  text-align: left;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+.table__td {
+  font-weight: 900;
+  color: var(--nutmeg);
+}

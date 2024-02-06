@@ -1,13 +1,9 @@
-/* IMPORT */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
-
-
 /* VARIABLE */
 :root {
   /* Layout */
   --desktop-width: 1440px;
   --mobile-width: 375px;
+  --margin-bottom-li: 10px;
 
   /* Colors */
   --nutmeg: #854632;
@@ -21,6 +17,7 @@
 
   /* Typo */
   --body-font-size: 16px;
+  --line-height: 1.6rem;
 
   /* Font */
   --font-outfit-sans-serif: 'Outfit', sans-serif;

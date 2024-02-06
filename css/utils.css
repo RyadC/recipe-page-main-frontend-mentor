@@ -1,0 +1,41 @@
+.title-h2 {
+  font-family: 'Young Serif', sans-serif;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: var(--nutmeg);
+  font-weight: 300;
+}
+
+.title-h2--info {
+  font-size: 1.7rem;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: var(--dark-raspberry);
+  margin-bottom: 20px;
+}
+
+.important-word {
+  color: var(--wenge-brown);
+  font-weight: 900;
+  font-size: var(--body-font-size);
+}
+
+.custom-puce::before {
+  content: '•';
+  margin-right: 37px;
+  font-weight: 900;
+}
+
+.line-effect::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  background-color: var(--light-grey);
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.border-bottom-cell {
+  border-bottom: solid 1px var(--light-grey);
+}
